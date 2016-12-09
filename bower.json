@@ -1,0 +1,39 @@
+{
+  "name": "mm-ui",
+  "description": "Prototype UI for Model Management",
+  "main": "app.js",
+  "authors": [
+    "Ishmeet Grewal"
+  ],
+  "license": "UNLICENSED",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "bootstrap": "^3.3.7",
+    "bootstrap-notify": "^0.2.0",
+    "angular": "^1.5.9",
+    "angular-ui-router": "^0.3.2",
+    "angular-messages": "^1.5.9",
+    "angular-sanitize": "^1.5.9",
+    "chartist": "^0.10.1"
+  },
+  "overrides":{
+    "bootstrap" : {
+      "main": [
+        "dist/css/bootstrap.css",
+        "dist/js/bootstrap.js"
+      ]
+    },
+    "bootstrap-notify": {
+      "main": [
+        "css/bootstrap-notify.css"
+      ]
+    }
+  }
+}
